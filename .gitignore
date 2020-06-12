@@ -1,5 +1,9 @@
 #twitter credentials
+<<<<<<< HEAD
 .twitter_credentials.json
+=======
+twitter_credentials.json
+>>>>>>> 86ea80a0b56045363a8166e3906f144e00660bc8
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
