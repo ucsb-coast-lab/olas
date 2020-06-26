@@ -1,5 +1,14 @@
 The latest @ucsantabarbara ocean report
 
+<<<<<<< HEAD
+⌚ Friday, June 12 at 12:10 PM
+
+🌊 1.6 ft @ 5 secs from 258º
+🌬 Calm
+〰 1.6 ft and rising
+🇭 4.2 ft @ 05:27 PM
+🇱 2.7 ft @ 11:18 PM
+=======
 ⌚ Wednesday, March 11 at 03:26 PM
 
 🌊 1.6 ft @ 10 secs from 232º
@@ -7,5 +16,6 @@ The latest @ucsantabarbara ocean report
 〰 1.4 ft and falling
 🇱 -0.2 ft @ 05:46 PM
 🇭 5.3 ft @ 12:05 AM
+>>>>>>> 86ea80a0b56045363a8166e3906f144e00660bc8
 
 Wave history at https://coastlab.sofarocean.com

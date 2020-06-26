@@ -38,9 +38,12 @@ def print_time_date():
 # Details for the Sofar API at: https://spotter.sofarocean.com/api
 def wind_wave_data(spotID, reports): #Get recent wave and wind data from a SPOTTER.
 	# Assemble the wave report
+	with open(str(Path().absolute()) + '/olas/spot_token.json', 'r') as file: # Load credentials from json file
+	    token = json.load(file)
+	print(token)
 	parameters = {'spotterId': spotID, 'limit': '0', 'includeWindData':'true'}
 	response = requests.get('https://api.sofarocean.com/api/latest-data', 
-	     headers={'token': '58d76bba4b8c64258a3b19bcafa6ff'},
+	     headers={'token': token},
              params=parameters)
 	latest = response.json()  # parse out json structure
 	latest = latest['data'] # move down to the wave data we want
