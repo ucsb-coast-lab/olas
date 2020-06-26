@@ -13,3 +13,10 @@
 - 00 10 * * * python3 /home/pi/olas/olas_v1.1.py >> ~/olas/cron.log 2>&1
 - 00 13 * * * python3 /home/pi/olas/olas_v1.1.py >> ~/olas/cron.log 2>&1
 - 00 16 * * * python3 /home/pi/olas/olas_v1.1.py >> ~/olas/cron.log 2>&1
+
+### Credentials and Tokens
+- The twitter credentials should be in the root directory in a file called twitter_credentials.json. The information should be formatted as follows:
+`{}`
+
+- The spotter api token should also be in the root directory in a file called spot_token.json. The information should be formatted as follows: 
+`{"SPOT_TOKEN" : "YOUR SPOTTER TOKEN HERE IN QUOTES"}`
