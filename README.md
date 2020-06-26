@@ -16,7 +16,7 @@
 
 ### Credentials and Tokens
 - The twitter credentials should be in the root directory in a file called twitter_credentials.json. The information should be formatted as follows:
-`{}`
+`{"CONSUMER_KEY": "YOUR KEY", "CONSUMER_SECRET": "YOUR SECRET", "ACCESS_TOKEN": "YOUR TOKEN", "ACCESS_SECRET": "YOUR SECRET"}`
 
 - The spotter api token should also be in the root directory in a file called spot_token.json. The information should be formatted as follows: 
-`{"SPOT_TOKEN" : "YOUR SPOTTER TOKEN HERE IN QUOTES"}`
+`{"SPOT_TOKEN" : "YOUR SPOTTER TOKEN"}`
