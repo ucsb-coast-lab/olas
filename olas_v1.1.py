@@ -38,7 +38,8 @@ def print_time_date():
 # Details for the Sofar API at: https://spotter.sofarocean.com/api
 def wind_wave_data(spotID, reports): #Get recent wave and wind data from a SPOTTER.
 	# Assemble the wave report
-	with open(str(Path().absolute()) + '/spot_token.json', 'r') as file: # Load credentials from json file
+	with open(str(Path().absolute()) + 'olas/spot_token.json', 'r') as file: # Load credentials from json file
+
 	    token = json.load(file)
 	parameters = {'spotterId': spotID, 'limit': '0', 'includeWindData':'true'}
 	response = requests.get('https://api.sofarocean.com/api/latest-data', 
@@ -162,7 +163,8 @@ def tide_data(reports): #Get a tide prediction from NOAA
 def tweet(): #Tweet report
 	# Prep the twitter environment
 
-	with open(str(Path().absolute()) + '/twitter_credentials.json', 'r') as file: # Load credentials from json file
+	with open(str(Path().absolute()) + 'olas/twitter_credentials.json', 'r') as file: # Load credentials from json file
+
 	    creds = json.load(file)  # Gives you consumer key/secret and access token/secret
 
 	auth = tweepy.OAuthHandler(creds['CONSUMER_KEY'], creds['CONSUMER_SECRET'])
@@ -179,7 +181,7 @@ def tweet(): #Tweet report
 	# When we're ready, we can convert this to flat python using: 
 	#$ jupyter nbconvert --to python olas_v1.ipynb
 
-	with open(str(Path().absolute()) + '/latest.txt','r') as f:
+	with open(str(Path().absolute()) + 'olas/latest.txt','r') as f:
 	    api.update_status(f.read()) # NOW TWEET IT
 
 
@@ -196,7 +198,7 @@ reports=[]
 wind_wave_data(spotID, reports)
 tide_data(reports)
 
-f = open(str(Path().absolute()) + '/latest.txt', 'w')
+f = open(str(Path().absolute()) + 'olas/latest.txt', 'w')
 #f = open('latest.txt', 'w') #will create txt file in current directory
 print('The latest @ucsantabarbara ocean report', *reports, sep="\n",file=f)
 f.close()
