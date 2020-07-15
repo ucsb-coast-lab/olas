@@ -148,7 +148,7 @@ def tide_data(reports): #Get a tide prediction from NOAA
     
     #credits = 'More wave data at https://ucsbcoastlab.org/buoy/'
     #credits = 'Wave history at https://coastlab.sofarocean.com'
-    credits = 'Wave history at https://coastlab.eri.ucsb.edu'
+    credits = 'Wave history at https://coastlab.eri.ucsb.edu/ucsb-ocean-report/'
     
     #spot_time = datetime.strptime(latest['waves'][-1]['timestamp'][:-1],'%Y-%m-%dT%H:%M:%S.%f') #Parse timestamp
     #spot_time = spot_time.replace(tzinfo=timezone.utc) #localize
