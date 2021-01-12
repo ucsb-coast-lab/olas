@@ -1,11 +1,11 @@
 The latest @ucsantabarbara ocean report
 
-⌚ Wednesday, July 15 at 06:51 AM
+⌚ Monday, January 11 at 07:05 PM
 
-🌊 2.1 ft @ 5 secs from 222º
-🌬 From the east at 5 kts
-〰 2.9 ft and rising
-🇭 3.1 ft @ 07:43 AM
-🇱 2.3 ft @ 11:58 AM
+🌊 3.4 ft @ 13 secs from 221º
+🌬 From the west at 2 kts
+〰 3.8 ft and falling
+🇭 3.7 ft @ 09:28 PM
+🇱 2.2 ft @ 01:52 AM
 
-Wave history at https://coastlab.sofarocean.com
+Wave history at https://coastlab.eri.ucsb.edu/ucsb-ocean-report/
