@@ -1,5 +1,17 @@
 # olas
-## Tweeter for Spot Buoy
+## Tweeter for Spot Buoy 
+Twitter Account: https://twitter.com/ucsb_buoy
+
+### Server Deployment
+This application is currently being run on the UCSB ERI server. The server runs the command in the unix file at 7 AM, 10 AM, 1 PM and 4 PM. 
+To make updates: 
+- Connect to UCSB VPN with Pulse Secure
+- run
+  - `ssh coastlab@sylk.eri.ucsb.edu`
+  - Use the password for the Coast Lab ERI functional account(This can be obtained from a Coast Lab admin)
+- Once logged in navigate to the OceanReport directory by running `cd ../coast/ocean-report/olas`
+- Making changes to any of the files as needed and test if the functionality still works
+- Push all changes to master and the server will run the code at the correct times
 
 ### Version History
 - 10/28/2019: Draft code for a detailed tweet using the latest wave data. 
