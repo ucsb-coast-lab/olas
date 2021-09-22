@@ -192,7 +192,7 @@ def tweet(): #Tweet report
 #MAIN
 InteractiveShell.ast_node_interactivity = "all" #Set the shell to show all output, instead of last result
 
-spotID = 'SPOT-0798' 
+spotID = 'SPOT-1097' 
 rightnow = datetime.now(timezone.utc) # We need the current time for placing some observations in context. 
 tomorrow = rightnow + timedelta(days=1) # Also, we'll use 'tomorrow' to get the tide predictions
 print_time_date()
